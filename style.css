@@ -1,0 +1,46 @@
+.decor-panel__menu {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.decor-panel__menu_item {
+    flex: 0 0 23.333%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+    display: none;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.decor-panel__menu_item a img {
+    width: 255px;
+}
+
+.pagination-panel {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-panel button {
+    display: flex;
+    align-content: center;
+    border-radius: 4px;
+    margin-bottom: 0px;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+    background-color: #62AD2D;
+    color: #fff;
+    border-color: #62AD2D;
+    border-bottom: 2px solid #58982B;
+    text-shadow: -1px -1px 0px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.pagination-panel button img {
+    margin-left: 14px;
+}
