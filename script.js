@@ -1,4 +1,4 @@
-var numtop = 4;
+var numtop = 3;
 $('.decor-panel .decor-panel__menu > li:lt(' + numtop + ')').css( "display", "block" );
 $('.pagination-btn').click(function () {
     $('.decor-panel .decor-panel__menu > li:lt(' + (numtop += 8) + ')').fadeIn();

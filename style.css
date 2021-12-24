@@ -1,19 +1,30 @@
+.decor-panel {
+    margin-bottom: 20px;
+}
+
 .decor-panel__menu {
     display: flex;
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
     margin: 0 auto;
+    
 }
 
 .decor-panel__menu_item {
-    flex: 0 0 23.333%;
+    flex: 0 0 31.333%;
     margin-right: 20px;
     margin-bottom: 20px;
     list-style: none;
     display: none;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.decor-panel__menu_item:hover {
+    box-shadow: 0 3px 9px rgb(0 0 0 / 20%);
 }
 
 .decor-panel__menu_item a img {
@@ -26,8 +37,6 @@
 }
 
 .pagination-panel button {
-    display: flex;
-    align-content: center;
     border-radius: 4px;
     margin-bottom: 0px;
     box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
